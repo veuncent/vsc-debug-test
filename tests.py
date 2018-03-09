@@ -7,4 +7,4 @@ class TestSomeService(unittest.TestCase):
 
         someService = SomeService()
 
-        self.assertEqual(42, someService)
+        self.assertEqual(42, someService.doSomething())
